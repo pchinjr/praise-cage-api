@@ -7,5 +7,9 @@
   },
   "devDependencies": {
     "@architect/architect": "^8.5.13"
+  },
+  "dependencies": {
+    "@architect/functions": "^3.13.11",
+    "@begin/data": "^2.0.1"
   }
 }
