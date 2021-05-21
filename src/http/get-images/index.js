@@ -21,6 +21,7 @@ async function route (req) {
 <body>
 <h1>Praise Cage</h1>
 ${image}
+${process.env.BEGIN_STATIC_ORIGIN}
 </body>
 </html>
 `
