@@ -5,10 +5,3 @@ praise-cage-api
 
 @http
 get /
-get /images
-
-@tables
-data
-  scopeID *String
-  dataID **String
-  ttl TTL
