@@ -2,6 +2,17 @@
   "name": "praise-cage-api",
   "version": "0.0.0",
   "description": "A fresh new Architect project!",
+   "arc": {
+    "app": "praise-cage-api",
+    "http": [
+      {
+        "/": {
+          "method": "any",
+          "src": "."
+        }
+      }
+    ]
+  },
   "scripts": {
     "start": "npx sandbox"
   },
