@@ -7,7 +7,7 @@
     "http": [
       {
         "/": {
-          "method": "any",
+          "method": "get",
           "src": "."
         }
       }
